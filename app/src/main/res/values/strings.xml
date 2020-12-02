@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Recipe Book</string>
+    <String name="menu_home">Home</String>
+    <String name="menu_favorite">Favorite</String>
+    <String name="menu_recent">Recent</String>
+    <String name="menu_Profile">Profile</String>
+</resources>
