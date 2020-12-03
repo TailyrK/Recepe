@@ -7,9 +7,13 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:background="@drawable/rounded"
         android:layout_width="match_parent"
         android:layout_height="70dp"
+        app:itemIconTint="@color/navcolor"
+        app:itemTextColor="@color/navcolor"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        app:menu="@menu/menu"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
